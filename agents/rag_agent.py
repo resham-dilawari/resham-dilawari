@@ -20,11 +20,12 @@ class RAGAgent(BaseAgent):
     5. Regulatory documents (SEBI circulars, tax guidelines)
     """
     
-    def __init__(self):
+    def __init__(self, use_real_db: bool = True):
         super().__init__(
             agent_name="RAG Knowledge Agent",
             specialization="retrieval and integration of relevant financial knowledge from document corpus"
         )
+        self.use_real_db = use_real_db
         # In production, initialize vector database connection here
         # self.vector_db = ChromaDB() or Pinecone() or FAISS()
         

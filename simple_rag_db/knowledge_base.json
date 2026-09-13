@@ -1,0 +1,41 @@
+{
+  "stock_analyses": [
+    {
+      "ticker": "RELIANCE.NS",
+      "date": "2025-12-01",
+      "analysis": "**RELIANCE Industries Analysis**\n                \nStrong fundamentals with diversified revenue streams. O2C segment provides stable cash flows.\nKey Metrics: P/E 24.5x, ROE 12.8%, D/E 0.45\nRating: HOLD | Target: \u20b92,800 | Confidence: HIGH\n",
+      "agent": "fundamental_agent"
+    },
+    {
+      "ticker": "TCS.NS",
+      "date": "2025-11-15",
+      "analysis": "**TCS - IT Sector Leader**\n                \nDefensive play with consistent performance. Industry-leading margins of 25%.\nKey Metrics: P/E 28.5x, ROE 45%, Debt-free\nRating: BUY for long-term | Target: \u20b94,200 | Risk: LOW\n",
+      "agent": "fundamental_agent"
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "date": "2025-12-05",
+      "analysis": "**HDFC Bank Post-Merger**\n                \nIntegration challenges being managed. Scale benefits emerging.\nKey Metrics: P/E 19.5x, CASA 42%, NPA 1.1%\nRating: ACCUMULATE | Target: \u20b91,850 | Risk: MEDIUM\n",
+      "agent": "fundamental_agent"
+    }
+  ],
+  "tax_rules": [
+    {
+      "topic": "Capital Gains Tax",
+      "content": "**Indian Tax Rules 2026**\n                \nLTCG (>12 months): 12.5% on gains above \u20b91.25L\nSTCG (\u226412 months): 20% flat rate\nTax Loss Harvesting: Losses can offset gains, carry forward 8 years\nSection 80C: ELSS qualifies, \u20b91.5L max deduction\n"
+    }
+  ],
+  "risk_frameworks": [
+    {
+      "topic": "Portfolio Risk Management",
+      "content": "**Risk Classification**\n                \nLOW RISK: Volatility <15%, Beta 0.5-0.8, 70-80% allocation\nMEDIUM RISK: Volatility 15-25%, Beta 0.8-1.2, 50-60% allocation  \nHIGH RISK: Volatility >25%, Beta >1.2, 20-30% allocation\n\nDiversification: 8-15 stocks, no single stock >20%, no sector >30%\n"
+    }
+  ],
+  "sector_research": [
+    {
+      "sector": "Information Technology",
+      "date": "2025-12-01",
+      "content": "**IT Sector Outlook**\n                \nExpected to reach $250B by FY26, growing at 12-15% CAGR.\nDigital services now 65% of revenue. Strong deal pipeline.\nSector Rating: OVERWEIGHT | Avg P/E: 25x\nPrefer: TCS, Infosys for stability; Mid-caps for growth\n"
+    }
+  ]
+}
