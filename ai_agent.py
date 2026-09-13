@@ -30,7 +30,7 @@ def analyze_portfolio(portfolio_data: str) -> str:
     """
     
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.6-flash',
         contents=prompt,
     )
     return response.text
@@ -58,7 +58,7 @@ def suggest_investments(portfolio_tickers: list, corpus: float, preferences: str
     """
     
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.6-flash',
         contents=prompt,
     )
     return response.text

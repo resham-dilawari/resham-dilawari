@@ -58,7 +58,7 @@ Remember: You are an internal tool for risk analysts. Accuracy and auditability 
         try:
             full_prompt = f"{self.get_system_prompt()}\n\n{prompt}"
             response = self.client.models.generate_content(
-                model='gemini-2.0-flash-exp',
+                model='gemini-3.6-flash',
                 contents=full_prompt,
                 config={
                     'temperature': temperature,

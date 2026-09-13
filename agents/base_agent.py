@@ -11,7 +11,7 @@ import json
 class BaseAgent:
     """Base class for all specialized financial agents."""
     
-    def __init__(self, agent_name: str, specialization: str, model: str = "gemini-2.5-flash"):
+    def __init__(self, agent_name: str, specialization: str, model: str = "gemini-3.6-flash"):
         self.agent_name = agent_name
         self.specialization = specialization
         self.model = model
