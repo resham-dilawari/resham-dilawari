@@ -1,0 +1,23 @@
+streamlit>=1.30.0
+yfinance>=0.2.35
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# RAG Dependencies
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Fine-Tuning & Evaluation
+transformers>=4.36.0
+peft>=0.7.0
+datasets>=2.16.0
+evaluate>=0.4.1
+
+# Additional for Comprehensive Evals
+scipy>=1.10.0
+
+# Experiment Tracking (Optional)
+# wandb>=0.16.0
+# mlflow>=2.9.0
